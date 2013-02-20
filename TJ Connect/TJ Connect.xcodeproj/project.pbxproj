@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB7A771A14FCC33800239451 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7A771814FCC33800239451 /* default.png */; };
+		AB7A771B14FCC33800239451 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7A771914FCC33800239451 /* default@2x.png */; };
+		ABB09C51161EA3080004C72A /* TapjoyAdvertiserLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB09C4D161EA3080004C72A /* TapjoyAdvertiserLibrary.a */; };
+		ABEE1879140EEC4F00C9DC3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEE1878140EEC4E00C9DC3D /* UIKit.framework */; };
+		ABEE187B140EEC4F00C9DC3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEE187A140EEC4F00C9DC3D /* Foundation.framework */; };
+		ABEE187D140EEC4F00C9DC3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEE187C140EEC4F00C9DC3D /* CoreGraphics.framework */; };
+		ABEE1883140EEC4F00C9DC3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABEE1881140EEC4F00C9DC3D /* InfoPlist.strings */; };
+		ABEE1885140EEC4F00C9DC3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEE1884140EEC4F00C9DC3D /* main.m */; };
+		ABEE1889140EEC4F00C9DC3D /* TJ_ConnectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEE1888140EEC4F00C9DC3D /* TJ_ConnectAppDelegate.m */; };
+		ABEE188C140EEC4F00C9DC3D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABEE188A140EEC4F00C9DC3D /* MainWindow.xib */; };
+		ABEE189C140EED7200C9DC3D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEE189B140EED7200C9DC3D /* CoreTelephony.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		ABEE263B140F395400C9DC3D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEE2639140F395400C9DC3D /* icon.png */; };
+		ABEE263C140F395400C9DC3D /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABEE263A140F395400C9DC3D /* icon@2x.png */; };
+		D3976DE216014082007688C2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3976DE116014082007688C2 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D3B35ACB1627701000AFC26D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B35ACA1627701000AFC26D /* SystemConfiguration.framework */; };
+		D3FB4BAD1602794100ED3C36 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FB4BAC1602794100ED3C36 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB7A771814FCC33800239451 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = "TJ Connect/default.png"; sourceTree = "<group>"; };
+		AB7A771914FCC33800239451 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "default@2x.png"; path = "TJ Connect/default@2x.png"; sourceTree = "<group>"; };
+		ABB09C4D161EA3080004C72A /* TapjoyAdvertiserLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = TapjoyAdvertiserLibrary.a; sourceTree = "<group>"; };
+		ABB09C4E161EA3080004C72A /* TapjoyConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapjoyConnect.h; sourceTree = "<group>"; };
+		ABB09C4F161EA3080004C72A /* TapjoyConnectConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapjoyConnectConstants.h; sourceTree = "<group>"; };
+		ABEE1874140EEC4E00C9DC3D /* TJ Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TJ Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEE1878140EEC4E00C9DC3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABEE187A140EEC4F00C9DC3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABEE187C140EEC4F00C9DC3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABEE1880140EEC4F00C9DC3D /* TJ Connect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TJ Connect-Info.plist"; sourceTree = "<group>"; };
+		ABEE1882140EEC4F00C9DC3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABEE1884140EEC4F00C9DC3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABEE1886140EEC4F00C9DC3D /* TJ Connect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TJ Connect-Prefix.pch"; sourceTree = "<group>"; };
+		ABEE1887140EEC4F00C9DC3D /* TJ_ConnectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJ_ConnectAppDelegate.h; sourceTree = "<group>"; };
+		ABEE1888140EEC4F00C9DC3D /* TJ_ConnectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJ_ConnectAppDelegate.m; sourceTree = "<group>"; };
+		ABEE188B140EEC4F00C9DC3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		ABEE189B140EED7200C9DC3D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		ABEE2639140F395400C9DC3D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "TJ Connect/icon.png"; sourceTree = "<group>"; };
+		ABEE263A140F395400C9DC3D /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "TJ Connect/icon@2x.png"; sourceTree = "<group>"; };
+		D3976DE116014082007688C2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D3B35ACA1627701000AFC26D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D3FB4BAC1602794100ED3C36 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "TJ Connect/Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABEE1871140EEC4E00C9DC3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B35ACB1627701000AFC26D /* SystemConfiguration.framework in Frameworks */,
+				D3976DE216014082007688C2 /* AdSupport.framework in Frameworks */,
+				ABEE189C140EED7200C9DC3D /* CoreTelephony.framework in Frameworks */,
+				ABEE1879140EEC4F00C9DC3D /* UIKit.framework in Frameworks */,
+				ABEE187B140EEC4F00C9DC3D /* Foundation.framework in Frameworks */,
+				ABEE187D140EEC4F00C9DC3D /* CoreGraphics.framework in Frameworks */,
+				ABB09C51161EA3080004C72A /* TapjoyAdvertiserLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB09C4C161EA3080004C72A /* TapjoyAdvertiserLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				ABB09C4D161EA3080004C72A /* TapjoyAdvertiserLibrary.a */,
+				ABB09C4E161EA3080004C72A /* TapjoyConnect.h */,
+				ABB09C4F161EA3080004C72A /* TapjoyConnectConstants.h */,
+			);
+			name = TapjoyAdvertiserLibrary;
+			path = ../TapjoyAdvertiserLibrary;
+			sourceTree = "<group>";
+		};
+		ABEE1869140EEC4E00C9DC3D = {
+			isa = PBXGroup;
+			children = (
+				D3B35ACA1627701000AFC26D /* SystemConfiguration.framework */,
+				D3FB4BAC1602794100ED3C36 /* Default-568h@2x.png */,
+				AB7A771814FCC33800239451 /* default.png */,
+				AB7A771914FCC33800239451 /* default@2x.png */,
+				ABEE2639140F395400C9DC3D /* icon.png */,
+				ABEE263A140F395400C9DC3D /* icon@2x.png */,
+				ABB09C4C161EA3080004C72A /* TapjoyAdvertiserLibrary */,
+				ABEE187E140EEC4F00C9DC3D /* TJ Connect */,
+				ABEE1877140EEC4E00C9DC3D /* Frameworks */,
+				ABEE1875140EEC4E00C9DC3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABEE1875140EEC4E00C9DC3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABEE1874140EEC4E00C9DC3D /* TJ Connect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABEE1877140EEC4E00C9DC3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3976DE116014082007688C2 /* AdSupport.framework */,
+				ABEE189B140EED7200C9DC3D /* CoreTelephony.framework */,
+				ABEE1878140EEC4E00C9DC3D /* UIKit.framework */,
+				ABEE187A140EEC4F00C9DC3D /* Foundation.framework */,
+				ABEE187C140EEC4F00C9DC3D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABEE187E140EEC4F00C9DC3D /* TJ Connect */ = {
+			isa = PBXGroup;
+			children = (
+				ABEE1887140EEC4F00C9DC3D /* TJ_ConnectAppDelegate.h */,
+				ABEE1888140EEC4F00C9DC3D /* TJ_ConnectAppDelegate.m */,
+				ABEE188A140EEC4F00C9DC3D /* MainWindow.xib */,
+				ABEE187F140EEC4F00C9DC3D /* Supporting Files */,
+			);
+			path = "TJ Connect";
+			sourceTree = "<group>";
+		};
+		ABEE187F140EEC4F00C9DC3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABEE1880140EEC4F00C9DC3D /* TJ Connect-Info.plist */,
+				ABEE1881140EEC4F00C9DC3D /* InfoPlist.strings */,
+				ABEE1884140EEC4F00C9DC3D /* main.m */,
+				ABEE1886140EEC4F00C9DC3D /* TJ Connect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABEE1873140EEC4E00C9DC3D /* TJ Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEE188F140EEC4F00C9DC3D /* Build configuration list for PBXNativeTarget "TJ Connect" */;
+			buildPhases = (
+				ABEE1870140EEC4E00C9DC3D /* Sources */,
+				ABEE1871140EEC4E00C9DC3D /* Frameworks */,
+				ABEE1872140EEC4E00C9DC3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TJ Connect";
+			productName = "TJ Connect";
+			productReference = ABEE1874140EEC4E00C9DC3D /* TJ Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABEE186B140EEC4E00C9DC3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = ABEE186E140EEC4E00C9DC3D /* Build configuration list for PBXProject "TJ Connect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABEE1869140EEC4E00C9DC3D;
+			productRefGroup = ABEE1875140EEC4E00C9DC3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABEE1873140EEC4E00C9DC3D /* TJ Connect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABEE1872140EEC4E00C9DC3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEE1883140EEC4F00C9DC3D /* InfoPlist.strings in Resources */,
+				ABEE188C140EEC4F00C9DC3D /* MainWindow.xib in Resources */,
+				ABEE263B140F395400C9DC3D /* icon.png in Resources */,
+				ABEE263C140F395400C9DC3D /* icon@2x.png in Resources */,
+				AB7A771A14FCC33800239451 /* default.png in Resources */,
+				AB7A771B14FCC33800239451 /* default@2x.png in Resources */,
+				D3FB4BAD1602794100ED3C36 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABEE1870140EEC4E00C9DC3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEE1885140EEC4F00C9DC3D /* main.m in Sources */,
+				ABEE1889140EEC4F00C9DC3D /* TJ_ConnectAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABEE1881140EEC4F00C9DC3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABEE1882140EEC4F00C9DC3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABEE188A140EEC4F00C9DC3D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABEE188B140EEC4F00C9DC3D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABEE188D140EEC4F00C9DC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABEE188E140EEC4F00C9DC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABEE1890140EEC4F00C9DC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TJ Connect/TJ Connect-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "TJ Connect/TJ Connect-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../TapjoyAdvertiserLibrary\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABEE1891140EEC4F00C9DC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TJ Connect/TJ Connect-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "TJ Connect/TJ Connect-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../TapjoyAdvertiserLibrary\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABEE186E140EEC4E00C9DC3D /* Build configuration list for PBXProject "TJ Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEE188D140EEC4F00C9DC3D /* Debug */,
+				ABEE188E140EEC4F00C9DC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEE188F140EEC4F00C9DC3D /* Build configuration list for PBXNativeTarget "TJ Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEE1890140EEC4F00C9DC3D /* Debug */,
+				ABEE1891140EEC4F00C9DC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABEE186B140EEC4E00C9DC3D /* Project object */;
+}
